@@ -1,0 +1,19 @@
+Hospital Management System includes registration of patients, storing their
+details into the system also computerized billing.Software has the facility to give a
+unique id for every patient and stores the details of every patient. It includes a search facility
+to know the current status of each ward. User can search the details of patient using the id.
+The Hospital Management System can be entered using a username and password. It is
+accessible by an administrator or receptionist. Only they can add data into the database The
+data can be retrieved easily. The interface is very user friendly. The data are well protected
+for personal use and makes the data processing very fast.
+The code has three files in it, they are:1)Inpatient, 2)Outpatient, 3)Counter. Object of the
+patient class is created in the outpatient file and object of inpatient class is created in the
+inpatient file. The details of patients are filled by the system according to the code.
+Displaying of the patient details is done by reading through the patient files and then
+displaying it. Non repetitive Patient ID’s for inpatients and outpatients is given and unfilled
+wards are given to the inpatients systematically by using counter file. Searching of particular
+patient details is done by sequential search technique from the patient files. Discharge of
+inpatients and allocating the new patients the empty wards is done by searching from the start
+of counter file. Invoice for inpatient is calculated from the inpatient file and treatments
+undertaken and then displayed at the end of patient’s discharge. Similarly invoice for
+outpatient is calculated from the outpatient class and treatments undertaken.
